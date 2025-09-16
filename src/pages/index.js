@@ -1,0 +1,17 @@
+export { default as Home } from "./Home/Home";
+export { default as Users } from "./Users/Users";
+export { default as UserInfo } from "./UserInfo/UserInfo";
+export { default as Notifications } from "./Notifications/Notifications";
+export { default as NewUser } from "./NewUser/NewUser";
+export { default as UploadedCourses } from "./UploadedCourses/UploadedCourses";
+export { default as NewBlog } from "./NewBlog/NewBlog";
+export { default as NewSession } from "./NewSession/NewSession";
+export { default as NewCourse } from "./NewCourse/NewCourse";
+export { default as Categories } from "./Categories/Categories";
+export { default as Contact } from "./Contact/Contact";
+export { default as UploadedBlogs } from "./UploadedBlogs/UploadedBlogs";
+export { default as UploadedSessions } from "./UploadedSessions/UploadedSessions";
+export { default as UiSections } from "./UiSections/UiSections";
+export { default as Comments } from "./Comments/Comments";
+export { default as OffCodes } from "./OffCodes/OffCodes";
+export { default as UserTickets } from "./UserTickets/UserTickets";

@@ -1,0 +1,98 @@
+
+  .parent {
+    @apply bg-secondary-light dark:bg-secondary-dark shadow rounded-xl p-3 h-[250px];
+  }
+  .parent section {
+    @apply flex h-full gap-3;
+  }
+  /* Right-side ===============tools-bar================= >>>>*/
+  .parent section .right-side {
+    @apply h-full w-[50px];
+  }
+  .parent section .right-side .tools-wrapper {
+    @apply h-full px-1 py-1
+  flex 
+  flex-col 
+  bg-primary-light/20 
+  border-primary-light/40
+  border-2
+  rounded-xl;
+  }
+  .parent section .right-side .tools-wrapper .more-tools-btn {
+    @apply w-full 
+  flex 
+  items-center 
+  justify-center;
+  }
+  .tools-wrapper span,
+  .tools-wrapper .more-tools-btn {
+    @apply rounded-xl
+  text-text-dark
+  dark:text-text-light
+  hover:text-primary-light
+  hover:bg-secondary-light/50 
+  dark:hover:!bg-secondary-dark/50
+  mb-1;
+  }
+  .parent section .right-side .tools-wrapper span {
+    @apply flex items-center justify-center w-full hover:bg-slate-100;
+  }
+  .parent section .right-side .tools-wrapper span.has-popup {
+    @apply relative;
+  }
+
+  .parent section .right-side .tools-wrapper span .popup {
+    @apply right-full top-full;
+  }
+  .parent section .right-side .tools-wrapper span .popup .popup-childe-wrapper {
+    @apply text-secondary-dark dark:text-secondary-light;
+  }
+
+  /* Left-side =============text-area=================== >>>>*/
+  .parent section .left-side {
+    @apply h-full w-full;
+  }
+  .parent section .left-side .text-content-wrapper {
+    @apply h-full 
+  w-full 
+  p-3 
+  overflow-y-auto 
+  relative
+  rounded-xl 
+  border 
+  border-secondary-dark/20
+  bg-background-light 
+  dark:bg-background-dark 
+  text-text-dark
+  dark:text-text-light;
+  }
+
+  .parent section .left-side .text-content-wrapper .redo-undo {
+    @apply w-fit h-fit flex items-center gap-x-2 p-3 absolute top-1 left-1;
+  }
+  .parent section .left-side .text-content-wrapper .redo-undo button {
+    @apply p-2 !text-xs bg-primary-light/20 hover:bg-primary-light border-primary-light border-2  rounded-full flex items-center transition-all disabled:opacity-40;
+  }
+  .parent section .left-side .text-content-wrapper .redo-undo svg {
+    @apply !text-sm;
+  }
+
+  /* Customize ======== >> */
+  .parent section .left-side div {
+    @apply h-full;
+  }
+  .ProseMirror {
+    @apply outline-none h-full !font-dana-md;
+  }
+  .ProseMirror a {
+    @apply text-primary-light;
+  }
+
+  /* action >>  */
+  .op-active {
+    @apply !bg-secondary-light dark:!bg-secondary-dark !text-primary-light;
+  }
+  .tiptap img {
+    @apply !block w-[min(90%,200px)] rounded-xl animate-initialShow;
+  }
+

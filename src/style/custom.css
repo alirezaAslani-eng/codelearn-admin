@@ -1,0 +1,26 @@
+.swal2-styled {
+  @apply !bg-success-light font-dana-md;
+}
+.swal2-popup {
+  @apply !max-w-[250px];
+}
+.swal2-icon {
+  @apply !scale-75;
+}
+.MuiDataGrid-cell {
+  @apply !text-right;
+}
+/* Mui lable input >>>> */
+.MuiFormLabel-root {
+  @apply !font-dana-md;
+}
+.css-w1u3ce {
+  @apply !font-dana-md !w-fit;
+}
+/* mui button == > */
+.MuiButton-containedPrimary {
+  @apply !bg-primary-light;
+}
+.MuiButton-containedError {
+  @apply !bg-danger-light dark:!bg-danger-dark;
+}

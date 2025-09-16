@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-light dark:bg-background-dark;
+  }
+  @font-face {
+    font-family: dana-md;
+    src: url("../assist/fonts/Dana/DanaFaNum-Medium.woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: dana-bold;
+    src: url("../assist/fonts/Dana/DanaFaNum-DemiBold.woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: peyda-md;
+    src: url("../assist/fonts/peyda/PeydaWeb-Medium.woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: peyda-bold;
+    src: url("../assist/fonts/peyda/PeydaWeb-Bold.woff");
+    font-display: swap;
+  }
+}
+@layer components {
+  /* colors  */
+  .secondary_box_color {
+    @apply bg-secondary-light dark:bg-secondary-dark;
+  }
+  .background_box_color {
+    @apply bg-background-light dark:bg-background-dark;
+  }
+  .secondary_text_color {
+    @apply text-text-dark/90 dark:text-text-light/90;
+  }
+
+  .danger_text_color {
+    @apply text-danger-light dark:text-danger-dark;
+  }
+  .success_text_color {
+    @apply text-success-light dark:text-success-dark;
+  }
+  /* Buttons */
+  .primary_btn_theme {
+    @apply bg-primary-light/20 border border-primary-light text-primary-light dark:text-text-light font-dana-md;
+  }
+  .danger_btn_theme {
+    @apply bg-danger-light/20 border border-danger-light text-danger-light dark:text-text-light dark:bg-danger-dark dark:border-none  font-dana-md;
+  }
+  .success_btn_theme {
+    @apply bg-success-light/20 border border-success-light text-success-light dark:text-text-light dark:bg-success-dark dark:border-none  font-dana-md;
+  }
+  button:disabled {
+    @apply !opacity-30;
+  }
+  /* Buttons / sizes  */
+  .xs_btn_size {
+    @apply p-1.5 flex items-center  gap-1 rounded-xl text-xs;
+  }
+  .sm_btn_size {
+    @apply p-2 flex items-center  gap-1 rounded-xl text-xs;
+  }
+  /* shadows >>  */
+  .secondary_shadow {
+    @apply shadow-[_6px_6px_56px_0];
+  }
+  .secondary_shadow_color {
+    @apply shadow-black/5;
+  }
+  .primary_shadow_color {
+    @apply shadow-primary-light/5;
+  }
+  /* Border */
+  .primary_border {
+    @apply border-2 border-primary-light/40;
+  }
+  /* positions */
+  .abs_center {
+    @apply absolute
+    -translate-x-1/2
+    -translate-y-1/2
+    left-1/2
+    top-1/2;
+  }
+  /* action effects */
+  .csa {
+    @apply active:!scale-[0.80];
+  }
+  input:disabled {
+    @apply opacity-30;
+  }
+  /* After */
+  .warning-after {
+    @apply relative after:absolute after:z-[1] after:w-5 after:h-5 after:bg-warning-light after:rounded-full after:-right-2 after:-bottom-2;
+  }
+  .ftc_box {
+    @apply p-4 rounded-[14px] bg-secondary-light dark:bg-secondary-dark;
+  }
+  .chart_box {
+    @apply p-8 rounded-[14px] bg-secondary-light dark:bg-secondary-dark;
+  }
+  .title {
+    @apply text-2xl;
+  }
+  .profile {
+    @apply block w-12 h-12 rounded-full bg-black  overflow-hidden;
+  }
+  .img {
+    @apply w-full h-full block object-cover;
+  }
+  /* reuseable css code >> */
+  /* absolute center x center y */
+
+  .commentBody {
+    @apply p-3 
+    w-full 
+    h-full 
+    overflow-y-auto  
+    bg-background-light 
+    dark:bg-background-dark 
+    text-text-dark/90 
+    dark:text-text-light/90 
+    shadow 
+    rounded-xl 
+    font-dana-md;
+  }
+  .answerBox {
+    @apply p-3 
+    min-w-full 
+    min-h-full 
+    max-w-full 
+    max-h-full 
+    overflow-y-auto  
+    bg-background-light 
+    dark:bg-background-dark 
+    text-text-dark/90 
+    dark:text-text-light/90 
+    shadow 
+    rounded-xl 
+    font-dana-md;
+  }
+  /* // custom scroll */
+  .table-scroll::-webkit-scrollbar {
+    @apply w-0 hidden;
+  }
+
+  /* Track */
+  /* .table-scroll::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  } */
+
+  /* Handle */
+  /* .table-scroll::-webkit-scrollbar-thumb {
+    @apply dark:bg-white/20 hover:bg-primary-light/50 rounded-full hidden hover:block;
+  }
+   */
+}

@@ -1,0 +1,7 @@
+.MuiAccordionSummary-root {
+  @apply !bg-secondary-light dark:!bg-secondary-dark !rounded-xl;
+}
+.MuiPaper-root{
+  @apply  !rounded-xl ;
+
+}
