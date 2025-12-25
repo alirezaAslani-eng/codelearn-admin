@@ -1,6 +1,6 @@
 
   .parent {
-    @apply bg-secondary-light dark:bg-secondary-dark shadow rounded-xl p-3 h-[250px];
+    @apply bg-secondary-light dark:bg-secondary-dark shadow rounded-xl p-3;
   }
   .parent section {
     @apply flex h-full gap-3;
