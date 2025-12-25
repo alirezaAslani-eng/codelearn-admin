@@ -1,4 +1,4 @@
-export default async function postOneSession(headers, body, urlId) {
+export default async function postOneSession({headers, body, urlId}={}) {
   // Required props <<
   if (!headers || !body || !urlId)
     throw new Error("you might didn't send headers , body , or id as a prop");
