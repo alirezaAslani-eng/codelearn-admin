@@ -6,4 +6,5 @@ export default defineConfig({
     react(),
     
   ],
+  base:"/codelearn-admin"
 });
