@@ -1,6 +1,10 @@
 import Swal from "sweetalert2";
-const showResult = (props) => {
-  const { isError, successText="", errorText="", buttonText="" } = props;
+const showResult = ({
+  isError,
+  successText = "موفقیت آمیز",
+  errorText = "مشکلی رخ داده",
+  buttonText = "باشه",
+} = {}) => {
   new Swal({
     title: `${isError ? errorText : successText}`,
     icon: `${isError ? "error" : "success"}`,
