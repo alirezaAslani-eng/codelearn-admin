@@ -8,7 +8,7 @@ An Admin Dashboard that's able to manage almost all of the content of this educa
 - Admins can answer, reject, and accept users' comments and tickets
 - Updating the navigation bar menu
 
-[View Dashboard](https://alirezaaslani-eng.github.io/codelearn-frontend/#/main) 👀
+[View Dashboard](https://alirezaaslani-eng.github.io/codelearn-admin) 👀
 
 ### You can use the following username and password if you want to take a look at this admin dashboard and test its features:
 #### username
