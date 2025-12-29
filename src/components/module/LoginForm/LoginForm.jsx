@@ -9,7 +9,6 @@ import {
 import { getAdminInfo, postLoginAdmin } from "../../../api";
 import { AuthContext } from "../../../context";
 export default function LoginForm() {
-  
   const authContext = useContext(AuthContext);
 
   const submited = async (form) => {
@@ -42,7 +41,7 @@ export default function LoginForm() {
                     <TextField
                       error={!!props?.error}
                       {...field}
-                      label="Email"
+                      label="User Name"
                     />
                   }
                   alertSection={props?.error || ""}
@@ -61,7 +60,7 @@ export default function LoginForm() {
                     <TextField
                       error={!!props?.error}
                       {...field}
-                      label="Email"
+                      label="Password"
                     />
                   }
                   alertSection={props?.error || ""}
