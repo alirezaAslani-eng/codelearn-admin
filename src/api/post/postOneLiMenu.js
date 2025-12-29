@@ -3,7 +3,7 @@ export default async function postOneLiMenu({ headers, body }) {
 
   if (!headers || !body)
     throw new Error("you might didn't send headers or body as a prop");
-  const res = await fetch("https://codelearn-backend.onrender.com/v1/menus/", {
+  const res = await fetch("https://alireza-eng.ir/v1/menus/", {
     method: "POST",
     headers: headers,
     body: JSON.stringify(body), // multipart/form-data

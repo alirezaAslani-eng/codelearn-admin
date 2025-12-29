@@ -1,5 +1,5 @@
 const getUserInfo = async ({ headers }) => {
-  const res = await fetch("https://codelearn-backend.onrender.com/v1/auth/me", {
+  const res = await fetch("https://alireza-eng.ir/v1/auth/me", {
     headers,
   });
   const jsonResponse = await res.json();

@@ -6,7 +6,7 @@ export default async function deleteOneCourse({ param, headers }) {
       "error in taking prop -> deleteOneCourse({ param, headers })"
     );
   const res = await fetch(
-    `https://codelearn-backend.onrender.com/v1/courses/sessions/${param}`,
+    `https://alireza-eng.ir/v1/courses/sessions/${param}`,
     {
       method: "DELETE",
       headers: headers,

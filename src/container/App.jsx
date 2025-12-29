@@ -25,7 +25,7 @@ function App() {
     console.log("checkAuthorizaton()");
     setIsPending(true); // START LOADING // re-render <<
     try {
-      await fetch("https://codelearn-backend.onrender.com/v1/auth/me", {
+      await fetch("https://alireza-eng.ir/v1/auth/me", {
         headers: {
           Authorization: `Bearer ${admin_token.token || null}`,
         },

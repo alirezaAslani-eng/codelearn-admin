@@ -2,7 +2,7 @@ export default async function putAcceptOneComment({ headers, body, param }) {
   if (!headers || !body || !param)
     throw new Error("you might didn't send headers , id or body as a prop");
   const res = await fetch(
-    `https://codelearn-backend.onrender.com/v1/comments/accept/${param}`,
+    `https://alireza-eng.ir/v1/comments/accept/${param}`,
     {
       method: "PUT",
       headers: {

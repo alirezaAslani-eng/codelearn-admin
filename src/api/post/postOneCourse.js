@@ -1,7 +1,7 @@
 export default async function postOneCourse(headers, body) {
   if (!headers || !body)
     throw new Error("you might didn't send headers or body as a prop");
-  const res = await fetch("https://codelearn-backend.onrender.com/v1/courses", {
+  const res = await fetch("https://alireza-eng.ir/v1/courses", {
     method: "POST",
     headers: headers,
     body: body, // multipart/form-data

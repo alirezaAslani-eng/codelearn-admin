@@ -7,7 +7,7 @@ export default function useChangeRole() {
   const authContext = useContext(AuthContext);
   // main method to change role by userInfo >>
   const changeRole = (idAndRole) => {
-    const res = fetch("https://codelearn-backend.onrender.com/v1/users/role", {
+    const res = fetch("https://alireza-eng.ir/v1/users/role", {
       method: "PUT",
       headers: {
         Authorization: `Bearer ${authContext.adminToken}`,
