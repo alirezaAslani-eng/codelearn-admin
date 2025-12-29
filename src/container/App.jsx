@@ -101,7 +101,9 @@ function App() {
             </div>
           )
         ) : (
-          "Loading check your token"
+          <div className="flex justify-center items-center h-[100svh] w-full ">
+            Authorizing
+          </div>
         )}
       </>
     </AuthContext.Provider>
