@@ -1,4 +1,4 @@
-## This is a fully dynamic Persian dashboard template built with [![ًReact.js 18](https://img.shields.io/badge/React.js-18-blue.svg)](https://choosealicense.com/licenses/mit/) and [![TailwindCSS 3](https://img.shields.io/badge/TailwindCSS-3-blue.svg)](https://choosealicense.com/licenses/mit/)
+## This is a fully dynamic Persian dashboard template built with [![ًReact.js 18](https://img.shields.io/badge/React.js-18-blue.svg)](https://legacy.reactjs.org/) and [![TailwindCSS 3](https://img.shields.io/badge/TailwindCSS-3-blue.svg)](https://v3.tailwindcss.com/)
 
 The UI is very chaotic, but it still maintains its functionality. You are able to manage almost all of the content from the link below:
 
