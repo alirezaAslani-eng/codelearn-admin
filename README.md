@@ -20,3 +20,9 @@ ce01010101it@gmail.com
 123456789
 ```
 
+## Tools/Packages used : 
+- ``zod`` (Form validation)
+- ``react-hook-form`` (Form's state management)
+- ``TailwindCSS`` (used to optimise CSS and implie styles faster)
+- ``mui/x-data-grid`` (to orginize large and detailed datas)
+- ``framer-motion`` (apply animation on mount and unmounting)
